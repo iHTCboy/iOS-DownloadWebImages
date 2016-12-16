@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6zn-M9-5Cz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9J1-cV-byt">
+                                <rect key="frame" x="126.5" y="567" width="122" height="40"/>
+                                <color key="backgroundColor" red="0.37276068644772004" green="0.96862745100000003" blue="0.46424469106823607" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lQn-xP-l4Z"/>
+                                </constraints>
+                                <state key="normal" title="Download Images">
+                                    <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="downloadImages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENe-gm-FLG"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="WebURL" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Va5-T2-evV">
+                                <rect key="frame" x="41" y="30" width="247" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="zA5-1P-mHr"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="go"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7AL-jp-ZeA">
+                                <rect key="frame" x="303" y="35" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.41646404331555231" green="0.83236705913879672" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OhH-VP-kJI"/>
+                                    <constraint firstAttribute="width" constant="46" id="qkm-eK-oeH"/>
+                                </constraints>
+                                <state key="normal" title="GO">
+                                    <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="gotoWebView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bNl-is-jIA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6zn-M9-5Cz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4Tt-Pq-OAs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7AL-jp-ZeA" secondAttribute="trailing" constant="10" id="65T-dj-Bsb"/>
+                            <constraint firstItem="Va5-T2-evV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="8Ig-Ia-rZp"/>
+                            <constraint firstItem="6zn-M9-5Cz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="99Y-KX-xjL"/>
+                            <constraint firstItem="7AL-jp-ZeA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="9Og-e9-Qwp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9J1-cV-byt" secondAttribute="bottom" constant="60" id="FQ4-g0-IKB"/>
+                            <constraint firstItem="9J1-cV-byt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G7h-Pc-7zm"/>
+                            <constraint firstItem="7AL-jp-ZeA" firstAttribute="leading" secondItem="Va5-T2-evV" secondAttribute="trailing" constant="15" id="Iuz-e5-L75"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6zn-M9-5Cz" secondAttribute="bottom" id="f6b-mx-HT6"/>
+                            <constraint firstAttribute="trailing" secondItem="6zn-M9-5Cz" secondAttribute="trailing" id="hu2-XS-dLt"/>
+                            <constraint firstItem="Va5-T2-evV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="tfh-Tv-vEA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="downBtn" destination="9J1-cV-byt" id="VGb-6W-9jX"/>
+                        <outlet property="urlFiled" destination="Va5-T2-evV" id="hvJ-Ij-1b4"/>
+                        <outlet property="webView" destination="6zn-M9-5Cz" id="baT-hS-4ec"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6D039161E038F5900818CF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D039151E038F5900818CF9 /* main.m */; };
+		F6D039191E038F5900818CF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D039181E038F5900818CF9 /* AppDelegate.m */; };
+		F6D0391C1E038F5900818CF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D0391B1E038F5900818CF9 /* ViewController.m */; };
+		F6D0391F1E038F5900818CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D0391D1E038F5900818CF9 /* Main.storyboard */; };
+		F6D039211E038F5900818CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D039201E038F5900818CF9 /* Assets.xcassets */; };
+		F6D039241E038F5900818CF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D039221E038F5900818CF9 /* LaunchScreen.storyboard */; };
+		F6D0392F1E038F5A00818CF9 /* DownloadImagesFormWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D0392E1E038F5A00818CF9 /* DownloadImagesFormWebViewTests.m */; };
+		F6D0393A1E038F5A00818CF9 /* DownloadImagesFormWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D039391E038F5A00818CF9 /* DownloadImagesFormWebViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6D0392B1E038F5A00818CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6D039091E038F5900818CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D039101E038F5900818CF9;
+			remoteInfo = DownloadImagesFormWebView;
+		};
+		F6D039361E038F5A00818CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6D039091E038F5900818CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D039101E038F5900818CF9;
+			remoteInfo = DownloadImagesFormWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6D039111E038F5900818CF9 /* DownloadImagesFormWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadImagesFormWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D039151E038F5900818CF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6D039171E038F5900818CF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6D039181E038F5900818CF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6D0391A1E038F5900818CF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6D0391B1E038F5900818CF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6D0391E1E038F5900818CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6D039201E038F5900818CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6D039231E038F5900818CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6D039251E038F5900818CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D0392A1E038F5A00818CF9 /* DownloadImagesFormWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadImagesFormWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D0392E1E038F5A00818CF9 /* DownloadImagesFormWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadImagesFormWebViewTests.m; sourceTree = "<group>"; };
+		F6D039301E038F5A00818CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D039351E038F5A00818CF9 /* DownloadImagesFormWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadImagesFormWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D039391E038F5A00818CF9 /* DownloadImagesFormWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadImagesFormWebViewUITests.m; sourceTree = "<group>"; };
+		F6D0393B1E038F5A00818CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6D0390E1E038F5900818CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D039271E038F5A00818CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D039321E038F5A00818CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6D039081E038F5800818CF9 = {
+			isa = PBXGroup;
+			children = (
+				F6D039131E038F5900818CF9 /* DownloadImagesFormWebView */,
+				F6D0392D1E038F5A00818CF9 /* DownloadImagesFormWebViewTests */,
+				F6D039381E038F5A00818CF9 /* DownloadImagesFormWebViewUITests */,
+				F6D039121E038F5900818CF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6D039121E038F5900818CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6D039111E038F5900818CF9 /* DownloadImagesFormWebView.app */,
+				F6D0392A1E038F5A00818CF9 /* DownloadImagesFormWebViewTests.xctest */,
+				F6D039351E038F5A00818CF9 /* DownloadImagesFormWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6D039131E038F5900818CF9 /* DownloadImagesFormWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F6D039171E038F5900818CF9 /* AppDelegate.h */,
+				F6D039181E038F5900818CF9 /* AppDelegate.m */,
+				F6D0391A1E038F5900818CF9 /* ViewController.h */,
+				F6D0391B1E038F5900818CF9 /* ViewController.m */,
+				F6D0391D1E038F5900818CF9 /* Main.storyboard */,
+				F6D039201E038F5900818CF9 /* Assets.xcassets */,
+				F6D039221E038F5900818CF9 /* LaunchScreen.storyboard */,
+				F6D039251E038F5900818CF9 /* Info.plist */,
+				F6D039141E038F5900818CF9 /* Supporting Files */,
+			);
+			path = DownloadImagesFormWebView;
+			sourceTree = "<group>";
+		};
+		F6D039141E038F5900818CF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D039151E038F5900818CF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6D0392D1E038F5A00818CF9 /* DownloadImagesFormWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6D0392E1E038F5A00818CF9 /* DownloadImagesFormWebViewTests.m */,
+				F6D039301E038F5A00818CF9 /* Info.plist */,
+			);
+			path = DownloadImagesFormWebViewTests;
+			sourceTree = "<group>";
+		};
+		F6D039381E038F5A00818CF9 /* DownloadImagesFormWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6D039391E038F5A00818CF9 /* DownloadImagesFormWebViewUITests.m */,
+				F6D0393B1E038F5A00818CF9 /* Info.plist */,
+			);
+			path = DownloadImagesFormWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6D039101E038F5900818CF9 /* DownloadImagesFormWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D0393E1E038F5A00818CF9 /* Build configuration list for PBXNativeTarget "DownloadImagesFormWebView" */;
+			buildPhases = (
+				F6D0390D1E038F5900818CF9 /* Sources */,
+				F6D0390E1E038F5900818CF9 /* Frameworks */,
+				F6D0390F1E038F5900818CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadImagesFormWebView;
+			productName = DownloadImagesFormWebView;
+			productReference = F6D039111E038F5900818CF9 /* DownloadImagesFormWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6D039291E038F5A00818CF9 /* DownloadImagesFormWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D039411E038F5A00818CF9 /* Build configuration list for PBXNativeTarget "DownloadImagesFormWebViewTests" */;
+			buildPhases = (
+				F6D039261E038F5A00818CF9 /* Sources */,
+				F6D039271E038F5A00818CF9 /* Frameworks */,
+				F6D039281E038F5A00818CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6D0392C1E038F5A00818CF9 /* PBXTargetDependency */,
+			);
+			name = DownloadImagesFormWebViewTests;
+			productName = DownloadImagesFormWebViewTests;
+			productReference = F6D0392A1E038F5A00818CF9 /* DownloadImagesFormWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6D039341E038F5A00818CF9 /* DownloadImagesFormWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D039441E038F5A00818CF9 /* Build configuration list for PBXNativeTarget "DownloadImagesFormWebViewUITests" */;
+			buildPhases = (
+				F6D039311E038F5A00818CF9 /* Sources */,
+				F6D039321E038F5A00818CF9 /* Frameworks */,
+				F6D039331E038F5A00818CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6D039371E038F5A00818CF9 /* PBXTargetDependency */,
+			);
+			name = DownloadImagesFormWebViewUITests;
+			productName = DownloadImagesFormWebViewUITests;
+			productReference = F6D039351E038F5A00818CF9 /* DownloadImagesFormWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6D039091E038F5900818CF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iHTCboy;
+				TargetAttributes = {
+					F6D039101E038F5900818CF9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6J394R8MPE;
+						ProvisioningStyle = Automatic;
+					};
+					F6D039291E038F5A00818CF9 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6D039101E038F5900818CF9;
+					};
+					F6D039341E038F5A00818CF9 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6D039101E038F5900818CF9;
+					};
+				};
+			};
+			buildConfigurationList = F6D0390C1E038F5900818CF9 /* Build configuration list for PBXProject "DownloadImagesFormWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6D039081E038F5800818CF9;
+			productRefGroup = F6D039121E038F5900818CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D039101E038F5900818CF9 /* DownloadImagesFormWebView */,
+				F6D039291E038F5A00818CF9 /* DownloadImagesFormWebViewTests */,
+				F6D039341E038F5A00818CF9 /* DownloadImagesFormWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6D0390F1E038F5900818CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D039241E038F5900818CF9 /* LaunchScreen.storyboard in Resources */,
+				F6D039211E038F5900818CF9 /* Assets.xcassets in Resources */,
+				F6D0391F1E038F5900818CF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D039281E038F5A00818CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D039331E038F5A00818CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6D0390D1E038F5900818CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D0391C1E038F5900818CF9 /* ViewController.m in Sources */,
+				F6D039191E038F5900818CF9 /* AppDelegate.m in Sources */,
+				F6D039161E038F5900818CF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D039261E038F5A00818CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D0392F1E038F5A00818CF9 /* DownloadImagesFormWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D039311E038F5A00818CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D0393A1E038F5A00818CF9 /* DownloadImagesFormWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6D0392C1E038F5A00818CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6D039101E038F5900818CF9 /* DownloadImagesFormWebView */;
+			targetProxy = F6D0392B1E038F5A00818CF9 /* PBXContainerItemProxy */;
+		};
+		F6D039371E038F5A00818CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6D039101E038F5900818CF9 /* DownloadImagesFormWebView */;
+			targetProxy = F6D039361E038F5A00818CF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6D0391D1E038F5900818CF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D0391E1E038F5900818CF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6D039221E038F5900818CF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D039231E038F5900818CF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6D0393C1E038F5A00818CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6D0393D1E038F5A00818CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D0393F1E038F5A00818CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6J394R8MPE;
+				INFOPLIST_FILE = DownloadImagesFormWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ihtc.DownloadImagesFormWebView.DownloadImagesFormWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6D039401E038F5A00818CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6J394R8MPE;
+				INFOPLIST_FILE = DownloadImagesFormWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ihtc.DownloadImagesFormWebView.DownloadImagesFormWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6D039421E038F5A00818CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DownloadImagesFormWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ihtc.DownloadImagesFormWebView.DownloadImagesFormWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadImagesFormWebView.app/DownloadImagesFormWebView";
+			};
+			name = Debug;
+		};
+		F6D039431E038F5A00818CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DownloadImagesFormWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ihtc.DownloadImagesFormWebView.DownloadImagesFormWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadImagesFormWebView.app/DownloadImagesFormWebView";
+			};
+			name = Release;
+		};
+		F6D039451E038F5A00818CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DownloadImagesFormWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ihtc.DownloadImagesFormWebView.DownloadImagesFormWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownloadImagesFormWebView;
+			};
+			name = Debug;
+		};
+		F6D039461E038F5A00818CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DownloadImagesFormWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ihtc.DownloadImagesFormWebView.DownloadImagesFormWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownloadImagesFormWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6D0390C1E038F5900818CF9 /* Build configuration list for PBXProject "DownloadImagesFormWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D0393C1E038F5A00818CF9 /* Debug */,
+				F6D0393D1E038F5A00818CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D0393E1E038F5A00818CF9 /* Build configuration list for PBXNativeTarget "DownloadImagesFormWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D0393F1E038F5A00818CF9 /* Debug */,
+				F6D039401E038F5A00818CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6D039411E038F5A00818CF9 /* Build configuration list for PBXNativeTarget "DownloadImagesFormWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D039421E038F5A00818CF9 /* Debug */,
+				F6D039431E038F5A00818CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6D039441E038F5A00818CF9 /* Build configuration list for PBXNativeTarget "DownloadImagesFormWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D039451E038F5A00818CF9 /* Debug */,
+				F6D039461E038F5A00818CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6D039091E038F5900818CF9 /* Project object */;
+}
